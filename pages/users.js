@@ -1,5 +1,5 @@
+import User from "@/User";
 import React from "react";
-import User from "../components/user";
 
 const users = ({ users }) => {
   return (
