@@ -9,7 +9,7 @@ const Post = ({ post }) => {
   return (
     <div>
       <h2>
-        {post.div} {post.title}
+        {post.div} {post.title} {post.price}
       </h2>
       <h2>{post.body}</h2>
     </div>
