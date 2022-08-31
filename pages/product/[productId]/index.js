@@ -9,7 +9,7 @@ const productDetail = ({ product }) => {
   return (
     <>
       <h2>
-        {product.id} {product.title}
+        {product.id} {product.title} {product.price}
       </h2>
       <p>{product.desc}</p>
     </>
