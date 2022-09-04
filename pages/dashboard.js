@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const dashboard = () => {
+const Dashboard = () => {
   const [isLoading, setisLoading] = useState(true);
   const [dashboardData, setdashboardData] = useState(null);
   useEffect(() => {
@@ -26,4 +26,4 @@ const dashboard = () => {
   );
 };
 
-export default dashboard;
+export default Dashboard;
