@@ -24,3 +24,10 @@ a {
     background: black;
   }
 }
+button {
+  color: black;
+  background-color: cyan;
+}
+h2 {
+  color: cyan;
+}
