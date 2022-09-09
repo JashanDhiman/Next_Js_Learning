@@ -1,10 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import { useSession } from "next-auth/react";
 
-const index = () => {
+const Index = () => {
+  const { data: session } = useSession();
+
   return (
     <>
-      <div>hello jashan</div>
+      <div>{session ? `${session.user.name}, ` : ""}Welcome to NextJs.</div>
       <hr></hr>
       <Link href="/users">
         <a>go to users page</a>
@@ -17,4 +20,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
